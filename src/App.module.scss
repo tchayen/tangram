@@ -1,0 +1,34 @@
+@import './variables';
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.navigation {
+  width: $size;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: flex-end;
+  z-index: 1;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.tangram {
+  width: $size;
+  height: $size;
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;
+}

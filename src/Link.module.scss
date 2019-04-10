@@ -1,0 +1,15 @@
+.link {
+  padding-bottom: 3px;
+  color: #777;
+  cursor: pointer;
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+
+.active {
+  color: #000;
+  border-color: #000;
+}
+
+.disabled {
+  opacity: 0.5;
+}

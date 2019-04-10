@@ -1,0 +1,152 @@
+// .swan {
+//   animation: swan-animation 0.5s ease-in 0s normal 1 forwards running;
+
+//   .t1 {
+//     animation: swan-t1-animation 0.5s ease-in 0s normal 1 forwards running;
+//   }
+
+//   .t2 {
+//     animation: swan-t2-animation 0.5s ease-in 0s normal 1 forwards running;
+//   }
+
+//   .t3 {
+//     animation: swan-t3-animation 0.5s ease-in 0s normal 1 forwards running;
+//   }
+
+//   .t4 {
+//     animation: swan-t4-animation 0.5s ease-in 0s normal 1 forwards running;
+//   }
+
+//   .t5 {
+//     animation: swan-t5-animation 0.5s ease-in 0s normal 1 forwards running;
+//   }
+
+//   .t6 {
+//     animation: swan-t6-animation 0.5s ease-in 0s normal 1 forwards running;
+//   }
+
+//   .t7 {
+//     animation: swan-t7-animation 0.5s ease-in 0s normal 1 forwards running;
+//   }
+// }
+
+// .swan-back {
+//   // transform: translate(-67.5px, -90px);
+
+//   animation: swan-animation 0.5s ease-in backwards;
+
+//   .t1 {
+//     animation: swan-t1-animation 0.5s ease-in backwards;
+//     transform: translate(137px, 269px) rotateZ(90deg);
+//   }
+
+//   .t2 {
+//     animation: swan-t2-animation 0.5s ease-in backwards;
+//     transform: translate(-13px, 331px) rotateZ(45deg);
+//   }
+
+//   .t3 {
+//     animation: swan-t3-animation 0.5s ease-in backwards;
+//     transform: translate(93px, 225px) rotateZ(135deg);
+//   }
+
+//   .t4 {
+//     animation: swan-t4-animation 0.5s ease-in backwards;
+//     transform: translate(-44px, 62px) rotateZ(135deg);
+//   }
+
+//   .t5 {
+//     animation: swan-t5-animation 0.5s ease-in backwards;
+//     transform: translate(-44px, 150px) rotateZ(180deg);
+//   }
+
+//   .t6 {
+//     animation: swan-t6-animation 0.5s ease-in backwards;
+//     transform: translate(-43.5px, 0.5px);
+//   }
+
+//   .t7 {
+//     animation: swan-t7-animation 0.5s ease-in backwards;
+//     transform: translate(106px, 0) rotateY(180deg);
+//   }
+// }
+
+// @keyframes swan-animation {
+//   0% {
+//     transform: none;
+//   }
+
+//   100% {
+//     transform: translate(-67.5px, -90px);
+//   }
+// }
+
+// @keyframes swan-t1-animation {
+//   0% {
+//     transform: none;
+//   }
+
+//   100% {
+//     transform: translate(137px, 269px) rotateZ(90deg);
+//   }
+// }
+
+// @keyframes swan-t2-animation {
+//   0% {
+//     transform: none;
+//   }
+
+//   100% {
+//     transform: translate(-13px, 331px) rotateZ(45deg);
+//   }
+// }
+
+// @keyframes swan-t3-animation {
+//   0% {
+//     transform: none;
+//   }
+
+//   100% {
+//     transform: translate(93px, 225px) rotateZ(135deg);
+//   }
+// }
+
+// @keyframes swan-t4-animation {
+//   0% {
+//     transform: none;
+//   }
+
+//   100% {
+//     transform: translate(-44px, 62px) rotateZ(135deg);
+//   }
+// }
+
+// @keyframes swan-t5-animation {
+//   0% {
+//     transform: none;
+//   }
+
+//   100% {
+//     transform: translate(-44px, 150px) rotateZ(180deg);
+//   }
+// }
+
+// @keyframes swan-t6-animation {
+//   0% {
+//     transform: none;
+//   }
+
+//   100% {
+//     transform: translate(-43.5px, 0.5px);
+//   }
+// }
+
+// @keyframes swan-t7-animation {
+//   0% {
+//     transform: none;
+//   }
+
+//   100% {
+//     transform: translate(106px, 0) rotateY(180deg);
+//   }
+// }

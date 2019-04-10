@@ -1,0 +1,42 @@
+@import './variables';
+
+.element {
+  width: $size;
+  height: $size;
+  position: absolute;
+}
+
+.t1 {
+  background-color: $orange;
+  clip-path: polygon(0% 100%, 50% 50%, 0% 0%);
+}
+
+.t2 {
+  background-color: $aquamarine;
+  clip-path: polygon(0% 0%, 50% 50%, 100% 0%);
+}
+
+.t3 {
+  background-color: $red;
+  clip-path: polygon(50% 100%, 100% 100%, 100% 50%);
+}
+
+.t4 {
+  background-color: $purple;
+  clip-path: polygon(0% 100%, 25% 75%, 50% 100%);
+}
+
+.t5 {
+  background-color: $pink;
+  clip-path: polygon(50% 50%, 75% 75%, 75% 25%);
+}
+
+.t6 {
+  background-color: $yellow;
+  clip-path: polygon(50% 50%, 25% 75%, 50% 100%, 75% 75%);
+}
+
+.t7 {
+  background-color: $blue;
+  clip-path: polygon(100% 0%, 75% 25%, 75% 75%, 100% 50%);
+}
