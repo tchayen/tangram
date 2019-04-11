@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react'
+import React, { useState, useRef, useEffect } from 'react'
 import classNames from 'classnames'
 import Link from './Link'
 import Element from './Element'
@@ -75,7 +75,7 @@ export default () => {
   const tangramRef = useRef(null)
   const references = [1, 2, 3, 4, 5, 6, 7].map(_ => useRef(null))
 
-  setImmediate(() => {
+  useEffect(() => {
     if (tangramRef.current === null) return
     references.forEach(ref => {
       if (ref.current === null) return
